@@ -1,0 +1,31 @@
+img {
+  border-radius: 8px;
+  width:600px;
+  height:200px;
+}
+
+body {
+		background-image: linear-gradient(to right top, #cbd9ee, #aec1d9, #91aac5, #7394b1, #557e9d);
+}
+
+h1, h3 {
+	color: #2527A5;	
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: blue;
+}
+
+dt::after {
+    content: ":";
+}
+
+dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
